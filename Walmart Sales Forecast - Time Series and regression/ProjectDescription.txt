@@ -1,0 +1,19 @@
+Description:
+Forecasting sales of Walmart store using historical data and other features impacting sales across 3 categories in Clothing- Women's , Men and other.
+By forecasting and thereby predicting sales, Stores can better quip themselves and have an overview of coming year in terms of monetary gains.
+A statistical evidence  and factors influencing sales was done. So that stores have better idea and model reports to create a strategy for increasing business.
+
+Time series models : Holt-Winter's Model (Triple Exponential Smoothing) , ARIMA, ARIMAX, SARIMAX (Effect of exogenous variables was tried)
+Regression Algorithms : Linear, DecisionTreeRegressor, RandomForestRegressor, GradientBoostingRegressor.
+
+Evaluation metric used was Root Mean Squared error
+Optimal Performance Found : 
+    Holt-Winter's (TES)               : RMSE: 137.81696
+    GradientBoostingRegressor : RMSE: 271.54052  
+Regression Model was done for knowing which factors influenced sales. 
+
+Appendix:
+1.The Dataset was provided by Great Learning as a part of Case Study Kaggle Competition.
+2.The purpose/objective was to predict sales of year2014 making it a Time Series problem.
+3.Regression models were built to understand the impact of Features on Sales across Categories.
+4.Prescriptive Analytics can be further explored given more data.
